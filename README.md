@@ -1,3 +1,6 @@
+# SUPERSEDED
+This repo has been superseded by https://github.com/SpectralCascade/UnityValveKeyValue 
+
 # VDFParser
 > Provides facilities to parse and write VDF files into managed objects
 
