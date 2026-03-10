@@ -21,6 +21,12 @@ VDFSerializer.Serialize(new VDFEntry[] { new VDFEntry { Name = "..." } });
 // => byte[] { ... }
 ```
 
+## Unity Installation
+1. Open the Unity package manager.
+2. Click the plus (+) button and select "Add package from Git URL..."
+3. Paste in the HTTPS Git URL **including** .git on the end
+4. Click "Add".
+
 ## Other Considerations
 It was noticed that Steam's do not follow a standard pattern for naming the fields in the mentioned file. You can find `appname` and `AppName` variations, but it appears that it does not enforce a single naming convention. This library was not extensively tested against multiple Steam installations and, therefore, more information or insights about this behavior is welcome.
 
