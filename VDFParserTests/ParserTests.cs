@@ -1,7 +1,6 @@
 ﻿using NUnit.Framework;
 using VDFParser.Models;
 using System;
-using NUnit.Framework.Legacy;
 
 namespace VDFParserTests {
     [TestFixture]
@@ -44,22 +43,22 @@ namespace VDFParserTests {
                 var exp = expectations[i];
                 var par = entries[i];
 
-                ClassicAssert.AreEqual(exp.Index, par.Index);
-                ClassicAssert.AreEqual(exp.appid, par.appid);
-                ClassicAssert.AreEqual(exp.AppName, par.AppName);
-                ClassicAssert.AreEqual(exp.Exe, par.Exe);
-                ClassicAssert.AreEqual(exp.StartDir, par.StartDir);
-                ClassicAssert.AreEqual(exp.Icon, par.Icon);
-                ClassicAssert.AreEqual(exp.ShortcutPath, par.ShortcutPath);
-                ClassicAssert.AreEqual(exp.LaunchOptions, par.LaunchOptions);
-                ClassicAssert.AreEqual(exp.IsHidden, par.IsHidden);
-                ClassicAssert.AreEqual(exp.AllowDesktopConfig, par.AllowDesktopConfig);
-                ClassicAssert.AreEqual(exp.AllowOverlay, par.AllowOverlay);
-                ClassicAssert.AreEqual(exp.OpenVR, par.OpenVR);
-                ClassicAssert.AreEqual(exp.Devkit, par.Devkit);
-                ClassicAssert.AreEqual(exp.DevkitGameID, par.DevkitGameID);
-                ClassicAssert.AreEqual(exp.LastPlayTime, par.LastPlayTime);
-                ClassicAssert.AreEqual(exp.Tags, par.Tags);
+                Assert.That(exp.Index, Is.EqualTo(par.Index));
+                Assert.That(exp.appid, Is.EqualTo(par.appid));
+                Assert.That(exp.AppName, Is.EqualTo(par.AppName));
+                Assert.That(exp.Exe, Is.EqualTo(par.Exe));
+                Assert.That(exp.StartDir, Is.EqualTo(par.StartDir));
+                Assert.That(exp.Icon, Is.EqualTo(par.Icon));
+                Assert.That(exp.ShortcutPath, Is.EqualTo(par.ShortcutPath));
+                Assert.That(exp.LaunchOptions, Is.EqualTo(par.LaunchOptions));
+                Assert.That(exp.IsHidden, Is.EqualTo(par.IsHidden));
+                Assert.That(exp.AllowDesktopConfig, Is.EqualTo(par.AllowDesktopConfig));
+                Assert.That(exp.AllowOverlay, Is.EqualTo(par.AllowOverlay));
+                Assert.That(exp.OpenVR, Is.EqualTo(par.OpenVR));
+                Assert.That(exp.Devkit, Is.EqualTo(par.Devkit));
+                Assert.That(exp.DevkitGameID, Is.EqualTo(par.DevkitGameID));
+                Assert.That(exp.LastPlayTime, Is.EqualTo(par.LastPlayTime));
+                Assert.That(exp.Tags, Is.EqualTo(par.Tags));
             }
         }
     }

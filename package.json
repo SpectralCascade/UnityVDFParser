@@ -4,6 +4,9 @@
   "displayName": "VDF Parser",
   "description": "Parser for Valve .vdf files.",
   "unity": "2022.3",
+  "dependencies": {
+    "com.unity.test-framework": "1.1.33"
+  },
   "documentationUrl": "https://github.com/BrianLima/VDFParser",
   "changelogUrl": "https://github.com/BrianLima/VDFParser/commits/master/",
   "licensesUrl": "https://github.com/BrianLima/VDFParser/blob/master/LICENSE",
