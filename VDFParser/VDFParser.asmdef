@@ -1,3 +1,20 @@
 {
-	"name": "VDFParser"
+    "name": "VDFParser",
+    "rootNamespace": "",
+    "references": [],
+    "includePlatforms": [],
+    "excludePlatforms": [],
+    "allowUnsafeCode": false,
+    "overrideReferences": false,
+    "precompiledReferences": [],
+    "autoReferenced": true,
+    "defineConstraints": [],
+    "versionDefines": [
+        {
+            "name": "Unity",
+            "expression": "[0,999]",
+            "define": "VDF_PARSER_ENABLED"
+        }
+    ],
+    "noEngineReferences": false
 }
