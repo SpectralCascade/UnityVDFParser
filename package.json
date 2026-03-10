@@ -1,6 +1,6 @@
 {
   "name": "com.brianlima.vdfparser",
-  "version": "1.0",
+  "version": "1.0.0",
   "displayName": "VDF Parser",
   "description": "Parser for Valve .vdf files.",
   "unity": "2022.3",
